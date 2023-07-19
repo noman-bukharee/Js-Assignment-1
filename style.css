@@ -1,0 +1,67 @@
+#identifier{
+    opacity: 0;
+}
+body {
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+button {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-family: 'Poppins';
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s ease-in;
+}
+
+button:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: .3s ease-in;
+}
+
+div#identifier {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 0px;
+    /* flex: 1 0 20px; */
+    flex-wrap: wrap;
+}
+
+div#identifier select {
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 700;
+    flex: 1 0 10px;
+}
+
+div#identifier select option {
+    font-size: 12px;
+}
+
+table#mobilespecs td {border: none;}
+
+table#mobilespecs tr:nth-child(1) {
+    /* border: none; */
+    font-size: 16px;
+    font-weight: 600;
+}
+
+table#mobilespecs {
+    padding: 15px 20px;
+    border: none;
+    box-shadow: 0px 0px 18px 3px #00000030;
+    border-radius: 5px;
+}
